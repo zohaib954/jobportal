@@ -3,6 +3,8 @@ import "./style.css"
 
 function login() {
   return (
+    <div>
+      <h1>AMJ Job Portal</h1>
     <div className='login'>
         <h2>Log in</h2>
         <form action="">
@@ -15,6 +17,8 @@ function login() {
             </fieldset>
         </form>
     </div>
+    </div>
+
   )
 }
 
